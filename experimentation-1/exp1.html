@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Javascript Experimentation</h1>
+    <p>Open up your console to see</p>
+
+<!-- Everytime you answer your favorite car the console command would be random with the lettercasing  -->
+
+    <script>
+       var userQuestion = prompt("What is your favorite car brand?", "").toLowerCase(); // The Question to the prompt
+       var final = ""
+
+    for (var i = 0; i < userQuestion.length; i++) { 
+        
+
+        if (i% 2 === 0){final = final+userQuestion[i].toUpperCase();} // Upper Case code for each word you put
+
+        else (final= final+userQuestion[i]);
+
+}
+
+console.log(final);
+
+
+
+    </script>
+    
+</body>
+</html>
