@@ -1,0 +1,119 @@
+
+body {
+    margin: 0;
+    font-family: 'Inter', Arial, sans-serif;
+    background-color: #f7f5f2;
+    background-image:
+      linear-gradient(rgba(0,0,0,0.03) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(0,0,0,0.03) 1px, transparent 1px);
+    background-size: 20px 20px;
+    color: #111;
+  }
+  
+  a {
+    color: #1c2845;
+    font-weight: 700;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  h1 {
+    text-align: center;
+    margin: 30px auto 0;
+    background: #ff1b1b;
+    color: white;
+    padding: 40px 20px;
+    border: 6px solid #000;
+    display: block;
+    width: fit-content;
+    font-family: 'Permanent Marker', cursive;
+    letter-spacing: 2px;
+    box-shadow: 0 16px 30px rgba(0,0,0,0.18);
+  }
+  
+  div {
+    text-align: center;
+    margin-top: 22px;
+  }
+  
+  div h2 {
+    display: inline-block;
+    margin: 0;
+    padding: 10px 18px;
+    background: #ffe11a;
+    border: 2px solid #000;
+    font-family: 'Permanent Marker', cursive;
+    box-shadow: 0 10px 18px rgba(0,0,0,0.15);
+  }
+  
+
+  .back-to-portal {
+    text-align: center;
+    margin: 18px 0 0;
+    font-family: 'Anton', sans-serif;
+  }
+  
+
+  main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30px 20px 10px;
+  }
+  
+  article {
+    background: #fff;
+    border: 8px solid #fff;
+    border-radius: 12px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.15);
+    padding: 16px;
+    margin: 30px auto;
+    transform: rotate(-1deg);
+  }
+  
+
+  article img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 10px;
+    display: block;
+  }
+  
+  article h2 {
+    margin: 14px 0 6px;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 28px;
+    color: #333;
+  }
+  
+  .date {
+    margin: 0 0 12px;
+    font-family: 'Anton', sans-serif;
+    color: #333;
+  }
+  
+  article p {
+    line-height: 1.7;
+    max-width: 65ch;
+    margin: 10px 0;
+  }
+  
+  article h3 {
+    margin-top: 16px;
+    font-family: 'Anton', sans-serif;
+  }
+  
+  article ul {
+    margin: 0;
+    padding-left: 18px;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 24px 16px 40px;
+    font-family: 'Anton', sans-serif;
+  }
+  
