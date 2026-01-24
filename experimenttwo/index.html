@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expermential Two</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+
+
+    <script>
+       var yourColor = prompt('What is your favorite Color pick blue, green, purple', '');
+
+       yourColor = yourColor.toLowerCase();
+       
+
+       var body = document.querySelector ('body');
+
+       if (yourColor == 'blue'){
+        body.style.backgroundColor='blue'
+        document.body.style.color='white'
+        document.body.innerHTML = '<h1>You selected Blue</h1>';
+       }
+       
+       else if (yourColor =='green'){
+        body.style.backgroundColor='green'
+        document.body.style.color='white'
+        document.body.innerHTML = '<h1>You type Green</h1>';
+       }
+
+       else if (yourColor =='purple'){
+        body.style.backgroundColor='purple'
+        document.body.style.color='white'
+        document.body.innerHTML = '<h1>You type Purple</h1>';
+       }
+
+       else {
+        body.style.backgroundColor = 'black';
+        document.body.style.color = 'white';
+        document.body.innerHTML = '<h1>Please pick: blue, green, or purple</h1>'
+       }
+
+       
+
+
+
+
+
+
+    </script>
+    
+</body>
+</html>
