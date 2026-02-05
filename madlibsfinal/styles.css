@@ -1,0 +1,172 @@
+body {
+     margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+  
+    background-image:
+    linear-gradient(#ccc 1px, transparent 1px),
+    linear-gradient(90deg, #ccc 1px, transparent 1px);
+  
+    background-size: 60px 60px;
+  }
+  
+
+.app {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+}
+
+.poster {
+
+    position: relative;
+    background: white;
+    width: 900px;
+    border: 8px solid black;
+    padding: 20px;
+}
+
+  
+  .sticker {
+    position: absolute;
+    width: 100px;
+  }
+  
+  .cow {
+    top: -40px;
+    left: -50px;
+    transform: rotate(-10deg);
+  }
+
+  .aggie {
+    bottom: -40px;
+    right: -30px;
+    transform: rotate(-10deg);
+    width: 180px;
+  }
+
+  
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    background-color: blue;
+    padding: 30px 20px;
+    font-family: "permanent Marker", cursive;
+    margin: 12px 0 8px;
+    border: 8px solid #000000;
+    display: inline-block;   
+    
+}
+
+h2 {
+    text-align: center;
+    font-size: 28px;
+    color: black;
+    background-color: yellow;
+    padding: 10px 10px;
+    font-family: "permanent Marker", cursive;
+    border: 5px solid;
+    display: inline-block;
+    
+}
+
+.MadlibsLayout {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    align-items: start;
+}
+
+.comicPanel {
+    align-self: start;
+    display: grid;
+    padding: 10px;
+    
+}
+
+.comicPanel img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border: 4px solid black;
+    display: block;
+}
+
+.formPanel {
+    background: red;
+    color: white;
+    padding: 20px;
+    width: 100%;
+    border: 4px solid black;
+    margin-bottom: 30px;
+}
+
+.contentBox{
+    background: white;
+    color: black;
+    border: 4px solid black;
+    padding: 20px;
+    width: 100%;
+  }
+
+h3 {
+    font-family: "permanent Marker", cursive;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.formGrid {
+    display: grid;
+    grid-template-columns: repeat(1fr, 1fr);
+    gap: 20px;
+}
+
+.field span {
+    font-size: 14px;
+    font-family : "permanent Marker", cursive;
+}
+
+.field input {
+    width: 50%;
+    height: 30px;
+    border: 3px solid black;
+    margin-top: 4px;
+}
+
+
+.originBtn {
+    grid-column: span 2;
+    background: yellow;
+    border: 4px solid black;
+    padding : 10px;
+    font-family: "permanent Marker", cursive;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.footer {
+    background: blue;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    border-top: 6px solid black;
+    font-family: "Permanent Marker", cursive;
+    font-size: 18px;
+  }
+
+
+  #storyOutput{
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+
