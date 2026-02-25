@@ -36,6 +36,12 @@ body{
   translate(calc(-50% + var(--bx)), calc(-50% + var(--by)))
   scale(var(--s));
 
+  --s: 1;
+  --bx: 0%;
+  --by: 0%;
+  --panX: 0px;
+  --panY: 0px;
+
   transition: transform 650ms cubic-bezier(.2,.8,.2,1);
 }
 
